@@ -1,0 +1,12 @@
+Source: ros-testing-rqt-shell
+Section: misc
+Priority: optional
+Maintainer: Dorian Scholz <scholz@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ros-workspace
+Homepage: http://wiki.ros.org/rqt_shell
+Standards-Version: 3.9.2
+
+Package: ros-testing-rqt-shell
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-catkin-pkg-modules, ros-testing-python-qt-binding (>= 0.2.19), ros-testing-qt-gui, ros-testing-qt-gui-py-common, ros-testing-rqt-gui, ros-testing-rqt-gui-py, ros-testing-ros-workspace
+Description: rqt_shell is a Python GUI plugin providing an interactive shell.
